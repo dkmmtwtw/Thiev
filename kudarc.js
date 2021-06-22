@@ -16,7 +16,7 @@ module.exports = function hehehe(){
 
   let min = Number.MAX_SAFE_INTEGER;
   let shortest = [];
-  for (let index = 3000; index <= 6000; index++) {
+  for (let index = 1; index <= osszes; index++) {
     let route = indexbolRoute(index)
     let routeLength = getRouteLength(route);
     if (min > routeLength) {
